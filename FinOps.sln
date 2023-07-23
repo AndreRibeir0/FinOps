@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinOps.Api", "src\FinOps.Api\FinOps.Api.csproj", "{065D88A1-D540-4F15-930C-0BC13B7BFDB0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinOps.Business", "src\FinOps.Business\FinOps.Business.csproj", "{34DB4117-2AA0-4186-AC30-CCAEA0A2980B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinOps.Data", "src\FinOps.Data\FinOps.Data.csproj", "{D54E111F-3C84-4641-B4BE-79881AC72A14}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinOps.Model", "src\FinOps.Model\FinOps.Model.csproj", "{1D8CC30A-2D69-48E9-B9DA-0684EB4E91DE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{5064CF8B-B113-4A81-956E-2535DB12F769}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinOps.BusinessTests", "test\FinOps.BusinessTests\FinOps.BusinessTests.csproj", "{50A434D4-8F3D-48D8-933E-1DA6113D4EF6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{065D88A1-D540-4F15-930C-0BC13B7BFDB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{065D88A1-D540-4F15-930C-0BC13B7BFDB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{065D88A1-D540-4F15-930C-0BC13B7BFDB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{065D88A1-D540-4F15-930C-0BC13B7BFDB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34DB4117-2AA0-4186-AC30-CCAEA0A2980B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34DB4117-2AA0-4186-AC30-CCAEA0A2980B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34DB4117-2AA0-4186-AC30-CCAEA0A2980B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34DB4117-2AA0-4186-AC30-CCAEA0A2980B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D54E111F-3C84-4641-B4BE-79881AC72A14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D54E111F-3C84-4641-B4BE-79881AC72A14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D54E111F-3C84-4641-B4BE-79881AC72A14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D54E111F-3C84-4641-B4BE-79881AC72A14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D8CC30A-2D69-48E9-B9DA-0684EB4E91DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D8CC30A-2D69-48E9-B9DA-0684EB4E91DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D8CC30A-2D69-48E9-B9DA-0684EB4E91DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D8CC30A-2D69-48E9-B9DA-0684EB4E91DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50A434D4-8F3D-48D8-933E-1DA6113D4EF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50A434D4-8F3D-48D8-933E-1DA6113D4EF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50A434D4-8F3D-48D8-933E-1DA6113D4EF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50A434D4-8F3D-48D8-933E-1DA6113D4EF6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{50A434D4-8F3D-48D8-933E-1DA6113D4EF6} = {5064CF8B-B113-4A81-956E-2535DB12F769}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {13F16629-CAAF-43C5-839A-53C74A86A70B}
+	EndGlobalSection
+EndGlobal
